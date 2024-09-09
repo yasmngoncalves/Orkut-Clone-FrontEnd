@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    background-color: #d4ddee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tela{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header div#cabecalho{
+    margin-top: 50px;
+}
+
+/* parte do aviso */
+header #cabecalho{
+    background-color: #fcfdde;
+    padding: 10px 10px;
+    border: 5px solid white;
+    border-radius: 8px;
+}
+
+div#cabecalho.tela span{
+    font-weight: bold;
+    color: #d40000;
+}
+
+/* criando colunas */
+#container-principal{
+    display: flex;
+    margin-top: 10px;
+}
+
+/* lado esquerdo */
+*#caixa-esquerda{
+    height: 400px;
+    width: 60%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+#caixa-esquerda #bloco-texto{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#caixa-esquerda #bloco-texto, #tela-login span{
+    color: #ed2590;
+    font-weight: bolder;
+}
+
+/*  lado direito */
+#caixa-direita{
+    height: 400px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+#caixa-direita #tela-login{
+    height: 70%;
+    width: 100%;
+    background-color: #e8eefa;
+    border: 5px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 0px;
+    border-radius: 8px;
+}
+
+/* formulario de login */
+div#tela-login p{
+    margin-top: 30px;
+}
+
+div#tela-login form{
+    margin-top: 10px;
+    width: 90%;
+    font-size: 14px;
+}
+
+div#tela-login form input{
+    border: 1px solid gray;
+    border-radius: 2px;
+    height: 25px;
+    width: 70%;
+    padding-left: 17px;
+}
+
+div#input-email, div#input-senha{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+div#input-lembrar label{
+    font-size: 13px;
+    color: #3d3d3d;
+}
+
+div#input-lembrar input[type=checkbox]{
+    margin: 10px;
+    height: 15px;
+    width: 15px;
+    margin-left: 19.5%;
+    cursor: pointer;
+}
+
+div#input-email label::after, div#input-senha label::after{
+    content: '';
+    margin-right: 10px;
+}
+
+div#tela-login form div#logar{
+    margin-top: 10px;
+    margin-left: 19%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+div#tela-login form div#logar button{
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    background-color: #e0e0e0;
+    border: 1px solid #999;    
+    box-shadow: inset 1px 1px #fff, inset -1px -1px #777; 
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+div#tela-login form div#logar button:active{
+    box-shadow: 1px 1px 3px #777 inset, -1px -1px 3px #fff inset;
+}
+
+/* parte do inscrever-se */
+#caixa-direita #tela-inscrever{
+    margin-top: 10px;
+    border: 5px solid white;
+    background-color: #e8eefa;
+    height: 30%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+#tela-inscrever{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tela-inscrever a{
+    margin-top: 2px;
+    font-size: 18px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* rodape */
+footer#rodape{
+    margin-top: 10px;
+    padding: 15px 10px;
+    background-color: #bccde9;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
