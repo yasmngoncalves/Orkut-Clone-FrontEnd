@@ -55,7 +55,7 @@ div#cabecalho.tela span{
     text-align: center;
 }
 
-#caixa-esquerda #bloco-texto, #tela-login span{
+#caixa-esquerda #bloco-texto span{
     color: #ed2590;
     font-weight: bolder;
 }
@@ -81,6 +81,11 @@ div#cabecalho.tela span{
     align-items: center;
     padding: 5px 0px;
     border-radius: 8px;
+}
+
+#caixa-direita #tela-login span{
+    color: #ed2590;
+    font-weight: bolder;
 }
 
 /* formulario de login */
